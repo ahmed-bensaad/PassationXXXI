@@ -3,7 +3,7 @@
   [
     {
       "name" : "Kwak",
-      "type" : "Belge Triple",
+      "type" : "Belge",
       "color" : "Ambrée",
       "ABV" : 8.4,
       "price" : 1.6,
@@ -14,7 +14,7 @@
     },
     {
       "name" : "Delirium",
-      "type" : "Belge Triple",
+      "type" : "Belge",
       "color" : "Blonde",
       "ABV" : 8.5,
       "price" : 2.4,
@@ -60,7 +60,7 @@
       "name" : "Kriek",
       "type" : "Lambic à la cerise",
       "color" : "Rouge",
-      "ABV" : 3.5000000000000004,
+      "ABV" : 3.5,
       "price" : 1.8,
       "bottle" : true,
       "path" : "kriek.png",
@@ -82,7 +82,7 @@
       "name" : "Cuvée des Trolls",
       "type" : "Belge",
       "color" : "Blonde",
-      "ABV" : 7.000000000000001,
+      "ABV" : 7,
       "price" : 1.8,
       "bottle" : true,
       "path" : "trolls.png",
@@ -115,7 +115,7 @@
       "name" : "Elephant",
       "type" : "Pilsner",
       "color" : "Blonde",
-      "ABV" : 7.5,
+      "ABV" : 7.2,
       "price" : 3,
       "bottle" : false,
       "path" : "elephant.png",
@@ -135,7 +135,7 @@
     },
     {
       "name" : "Grimbergen Blanche",
-      "type" : "Bière belge",
+      "type" : "Belge",
       "color" : "Blanche",
       "ABV" : 6,
       "price" : 2.8,
@@ -146,13 +146,13 @@
     },
     {
       "name" : "Grimbergen Double Ambrée",
-      "type" : "Belge Double",
+      "type" : "Belge",
       "color" : "Ambrée",
       "ABV" : 6.5,
       "price" : 2.9,
       "bottle" : false,
       "path" : "grim_ambree.png",
-      "description" : "La Grimbergen double est une bière belge dites \"d'Abbaye\". En bouche, les saveurs de caramels apporte à l'ensemble une rondeur maltée qui accompagne des notes fruitées de raisins, de grains torréfiés et d'épices. L'amertume est presque imperceptible et l'ensemble est doux et relativement bien équilibré. \"Brûle mais ne se consume pas\" telle est la devise de l'Abbaye de Grimbergen fondée en 1128 dans un petit village du nord de Bruxelles. Elle fut à maintes reprises incendiée mais à chaque fois rebâtie, tel un phénix renaissant de ses cendres.",
+      "description" : "La Grimbergen double est une bière belge dite \"d'Abbaye\". En bouche, les saveurs de caramels apporte à l'ensemble une rondeur maltée qui accompagne des notes fruitées de raisins, de grains torréfiés et d'épices. L'amertume est presque imperceptible et l'ensemble est doux et relativement bien équilibré. \"Brûle mais ne se consume pas\" telle est la devise de l'Abbaye de Grimbergen fondée en 1128 dans un petit village du nord de Bruxelles. Elle fut à maintes reprises incendiée mais à chaque fois rebâtie, tel un phénix renaissant de ses cendres.",
       "checked" : false
     },
     {
@@ -223,7 +223,7 @@
     },
     {
       "name" : "Angelus",
-      "type" : "Belge double",
+      "type" : "Belge",
       "color" : "Blonde",
       "ABV" : 7.0,
       "price" : 2.9,
@@ -234,7 +234,7 @@
     },
     {
       "name" : "Duchesse Anne",
-      "type" : "Bière triple",
+      "type" : "Triple",
       "color" : "Blonde",
       "ABV" : 6,
       "price" : 2.9,
@@ -245,7 +245,7 @@
     },
     {
       "name" : "Goudale",
-      "type" : "Bière des flandres",
+      "type" : "Bière de Garde",
       "color" : "Blonde",
       "ABV" : 7.2,
       "price" : 2.9,
@@ -277,9 +277,9 @@
       "checked" : false
     },
     {
-      "name" : "Bush triple",
-      "type" : "Belge triple",
-      "color" : "Ambrée",
+      "name" : "Bush Blonde",
+      "type" : "Belge",
+      "color" : "Blonde",
       "ABV" : 12,
       "price" : 2.9,
       "bottle" : true,
@@ -310,8 +310,8 @@
       "checked" : false
     },
     {
-      "name" : "Carolus",
-      "type" : "Belge triple",
+      "name" : "Carolus Tripel",
+      "type" : "Belge Triple",
       "color" : "Blonde",
       "ABV" : 9,
       "price" : 2.9,
@@ -322,7 +322,7 @@
     },
     {
       "name" : "Duvel",
-      "type" : "Belge triple",
+      "type" : "Belge",
       "color" : "Blonde",
       "ABV" : 8.5,
       "price" : 2.9,
@@ -333,7 +333,7 @@
     },
     {
       "name" : "Fruit défendu",
-      "type" : "Belge triple",
+      "type" : "Belge",
       "color" : "Ambrée",
       "ABV" : 8.8,
       "price" : 2.9,
@@ -344,7 +344,7 @@
     },
     {
       "name" : "Gauloise brune",
-      "type" : "Belge triple",
+      "type" : "Belge",
       "color" : "Brune",
       "ABV" : 8.1,
       "price" : 2.9,
@@ -366,7 +366,7 @@
     },
     {
       "name" : "Queue de charrue rouge",
-      "type" : "Belge double",
+      "type" : "Belge à la cerise",
       "color" : "Rouge",
       "ABV" : 8.7,
       "price" : 2.9,
@@ -421,7 +421,7 @@
     },
     {
       "name" : "Page 24",
-      "type" : "Bière des Flandres",
+      "type" : "Bière de Garde",
       "color" : "Blonde",
       "ABV" : 5.9,
       "price" : 2.9,
@@ -443,7 +443,7 @@
     },
     {
       "name" : "Kasteel Donker",
-      "type" : "Belge triple",
+      "type" : "Belge",
       "color" : "Brune",
       "ABV" : 11,
       "price" : 2.9,
@@ -455,7 +455,7 @@
     {
       "name" : "Franziskaner",
       "type" : "Weissbier",
-      "color" : "Blonde",
+      "color" : "Blanche",
       "ABV" : 5,
       "price" : 2.9,
       "bottle" : true,
