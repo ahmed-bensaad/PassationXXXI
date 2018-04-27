@@ -13,7 +13,6 @@ import  {PressionsPage} from '../pages/pressions/pressions';
 import {BouteillesPage} from '../pages/bouteilles/bouteilles';
 import {BierePage} from '../pages/biere/biere';
 import { RemoteServiceProvider } from '../providers/remote-service/remote-service';
-import { DataProvider } from '../providers/data/data';
 
 
 @NgModule({
@@ -45,7 +44,6 @@ import { DataProvider } from '../providers/data/data';
     HttpClient,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     RemoteServiceProvider,
-    DataProvider
   ]
 })
 export class AppModule {}

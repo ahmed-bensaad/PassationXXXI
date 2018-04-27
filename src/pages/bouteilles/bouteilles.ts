@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {RemoteServiceProvider} from '../../providers/remote-service/remote-service'
 import {BierePage} from '../biere/biere'
-import { DataProvider } from '../../providers/data/data';
 import { Storage } from '@ionic/storage';
 
 /**
