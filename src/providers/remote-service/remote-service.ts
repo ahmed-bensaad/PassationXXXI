@@ -18,7 +18,7 @@ import 'rxjs/add/operator/catch';
 export class RemoteServiceProvider {
 
 
-getApiUrl : string = "../assets/data/beers.json";
+getApiUrl : string = "./assets/data/beers.json";
 
   constructor(public http: HttpClient) {
     console.log('Hello RemoteServiceProvider Provider');

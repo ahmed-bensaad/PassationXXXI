@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Storage } from '@ionic/storage';
+
 
 /**
  * Generated class for the BierePage page.
@@ -15,13 +17,27 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class BierePage {
 	beer;
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+	beerList;
+	Caption;
+	storage;
+  constructor(public navCtrl: NavController, public navParams: NavParams,storage:Storage) {
+  		this.storage=storage;
 		this.beer = navParams.get('item');
+		this.beerList = navParams.get('beers');
+		console.log(this.beerList);
 		console.log(this.beer);
+		this.Caption=this.beer.checked == true? "Checked" : "Unchecked";
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad BierePage');
   }
+  onClick(storage:Storage){
+  	this.beer.checked= !this.beer.checked;
+  	this.beerList[this.beer.checked]=!this.beer.checked;
+  	storage.set('json', this.beerList);
+  	this.Caption=this.beer.checked == true? "Checked" : "Unchecked";
+  }
+
 
 }

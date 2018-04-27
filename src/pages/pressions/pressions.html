@@ -7,12 +7,17 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>pressions</ion-title>
+    <ion-title>Pressions</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+<h2>Bières Pressions</h2>
+<ion-list *ngFor="let beer of beerList">
+    <ion-item  *ngIf="beer.bottle == false" (click)="itemClicked(beer, beerList)">
+    {{ beer.name }}
+    </ion-item>
+</ion-list>
 </ion-content>

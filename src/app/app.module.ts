@@ -6,13 +6,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
-
+import { IonicStorageModule } from '@ionic/storage';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import  {PressionsPage} from '../pages/pressions/pressions';
 import {BouteillesPage} from '../pages/bouteilles/bouteilles';
 import {BierePage} from '../pages/biere/biere';
 import { RemoteServiceProvider } from '../providers/remote-service/remote-service';
+import { DataProvider } from '../providers/data/data';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { RemoteServiceProvider } from '../providers/remote-service/remote-servic
     BrowserModule,
     HttpClientModule,
     IonicModule.forRoot(MyApp),
-    HttpModule
+    HttpModule,
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -42,7 +44,8 @@ import { RemoteServiceProvider } from '../providers/remote-service/remote-servic
     SplashScreen,
     HttpClient,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    RemoteServiceProvider
+    RemoteServiceProvider,
+    DataProvider
   ]
 })
 export class AppModule {}
