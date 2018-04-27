@@ -3,11 +3,16 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import  {PressionsPage} from '../pages/pressions/pressions';
 import {BouteillesPage} from '../pages/bouteilles/bouteilles';
+import {BierePage} from '../pages/biere/biere';
+import { RemoteServiceProvider } from '../providers/remote-service/remote-service';
 
 
 @NgModule({
@@ -15,23 +20,29 @@ import {BouteillesPage} from '../pages/bouteilles/bouteilles';
     MyApp,
     HomePage,
     PressionsPage,
-    BouteillesPage
+    BouteillesPage,
+    BierePage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    HttpClientModule,
+    IonicModule.forRoot(MyApp),
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
     PressionsPage,
-    BouteillesPage
+    BouteillesPage,
+    BierePage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    HttpClient,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    RemoteServiceProvider
   ]
 })
 export class AppModule {}
