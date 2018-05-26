@@ -16,9 +16,14 @@
 <ion-content padding>
 <h2>Bières Pressions</h2>
 <ion-list *ngFor="let beer of beerList">
-    <ion-item  *ngIf="beer.bottle == false" (click)="itemClicked(beer, beerList)">
+  <ion-item *ngIf="beer.bottle == false" (click)="itemClicked(beer,beerList)">
+    <ion-thumbnail item-start>
+      <img src="{{beer.path}}">
+    </ion-thumbnail>
     {{ beer.name }}
+    <p>{{beer.description}}</p>
     <ion-icon name="checkmark-circle" *ngIf="beer.checked == true" style="color : #00c100;" item-right></ion-icon>
-    </ion-item>
+  </ion-item>
 </ion-list>
+
 </ion-content>

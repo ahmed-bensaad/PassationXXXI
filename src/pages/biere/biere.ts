@@ -26,7 +26,7 @@ export class BierePage {
 		this.beerList = navParams.get('beers');
 		console.log(this.beerList);
 		console.log(this.beer);
-		this.Caption=this.beer.checked == true? "Checked" : "Unchecked";
+		this.Caption=this.beer.checked == true? "Uncheck" : "Check";
   }
 
   ionViewDidLoad() {
@@ -36,7 +36,7 @@ export class BierePage {
   	this.beer.checked= !this.beer.checked;
   	this.beerList[this.beer.checked]=!this.beer.checked;
   	storage.set('json', this.beerList);
-  	this.Caption=this.beer.checked == true? "Checked" : "Unchecked";
+  	this.Caption=this.beer.checked == true? "Uncheck" : "Check";
   }
 
 
