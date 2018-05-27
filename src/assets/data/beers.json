@@ -124,7 +124,7 @@
       "ABV" : 4.2,
       "bottle" : false,
       "path" : "../assets/imgs/guinness.jpg",
-      "description" : "",
+      "description" : "La Guinness est une bière irlandaise fabriquée par la brasserie d’Arthur Guinness depuis 1759. Bière de légende, la Guinness est une stout, dont le goût prononcé a su convaincre bon nombre de consommateurs de par le monde… Bière sombre et épaisse, elle se distingue des autres bières grâce à sa mousse blanche onctueuse, ainsi que par ses arômes caramélisés forts.",
       "checked" : false
     },
     {
@@ -135,7 +135,7 @@
       "ABV" : 8,
       "bottle" : false,
       "path" : "../assets/imgs/chouffe.jpg",
-      "description" : "",
+      "description" : "La chouffe est une belgian Pale Ale blonde non filtrée et refermentée. Derrière une robe couleur or, on découvre avec enchantement un bouquet aromatique à la fois fruitée et épicé. Sur le palais, on retrouve les notes épicées déjà présente au nez avec des touches de coriandre. Les houblons apportent une agréable amertume en fin de bouche. Cette bière agréablement fruitée et épicée se fera la compagne idéale d’un poisson blanc ou d’une volaille. N’hésitez pas non plus à l’associer à un fromage à pâte molle.",
       "checked" : false
     },
     {
@@ -146,7 +146,7 @@
       "ABV" : 8,
       "bottle" : false,
       "path" : "../assets/imgs/mc_chouffe.jpg",
-      "description" : "",
+      "description" : "La Mc Chouffe est une Bière brune non filtrée, refermentée aussi bien en bouteille qu’en fût. On retrouve derrière son bouquet fruité une légère pointe d’amertume.Au nez, elle dégage des arômes d'épices, de caramel et de fruits. En bouche, on y retrouve une pointe d'amertume et des saveurs de fruits, de malt grillé, de caramel et de levure.",
       "checked" : false
     },
     {
@@ -157,7 +157,7 @@
       "ABV" : 9,
       "bottle" : false,
       "path" : "../assets/imgs/chouffe_houblon.jpg",
-      "description" : "",
+      "description" : "La Houblon Chouffe Dobbelen IPA Tripel représente le mariage époustouflant d’une IPA et d’une triple Belge, pour former une Belgian IPA qui satisfera tout le monde. Dans son verre, cette bière orangée légèrement trouble propose un nez raffiné, subtil équilibre entre le houblon, les épices et le malt. La bouche est puissante, onctueuse et ample, pour des notes épicées avec un final houblonné et particulièrement amer. Un modèle du genre de la brasserie d'Achouffe !",
       "checked" : false
     },
     {

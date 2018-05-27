@@ -13,6 +13,8 @@ import  {PressionsPage} from '../pages/pressions/pressions';
 import {BouteillesPage} from '../pages/bouteilles/bouteilles';
 import {BierePage} from '../pages/biere/biere';
 import { RemoteServiceProvider } from '../providers/remote-service/remote-service';
+import { Diagnostic } from '@ionic-native/diagnostic';
+
 
 
 @NgModule({
@@ -42,6 +44,7 @@ import { RemoteServiceProvider } from '../providers/remote-service/remote-servic
     StatusBar,
     SplashScreen,
     HttpClient,
+    Diagnostic,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     RemoteServiceProvider,
   ]
