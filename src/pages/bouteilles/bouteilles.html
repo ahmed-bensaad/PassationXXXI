@@ -22,7 +22,7 @@
       <img src="{{beer.path}}">
     </ion-thumbnail>
     {{ beer.name }}
-    <p>{{beer.description}}</p>
+    <p>Type : {{beer.type}} - Alc.% : {{beer.ABV}} - Origine : {{beer.origin}}</p>
     <ion-icon name="checkmark-circle" *ngIf="beer.checked == true" style="color : #00c100;" item-right></ion-icon>
   </ion-item>
 </ion-list>
