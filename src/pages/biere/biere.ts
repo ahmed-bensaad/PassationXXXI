@@ -21,7 +21,7 @@ export class BierePage {
 	Caption;
 	storage;
   constructor(public navCtrl: NavController, public navParams: NavParams,storage:Storage) {
-  		this.storage=storage;
+  	this.storage=storage;
 		this.beer = navParams.get('item');
 		this.beerList = navParams.get('beers');
 		console.log(this.beerList);
