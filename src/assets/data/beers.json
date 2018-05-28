@@ -103,7 +103,7 @@
     {
       "name" : "Duvel",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Blonde",
       "ABV" : 8.5,
       "bottle" : true,
@@ -130,7 +130,7 @@
     {
       "name" : "Chouffe",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Blonde",
       "ABV" : 8,
       "bottle" : false,
@@ -163,7 +163,7 @@
     {
       "name" : "Rince Cochon",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Blonde",
       "ABV" : 8.5,
       "bottle" : true,
@@ -185,7 +185,7 @@
     {
       "name" : "Maredsous Blonde",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Blonde",
       "ABV" : 6,
       "bottle" : true,
@@ -196,7 +196,7 @@
     {
       "name" : "Rochefort 10",
       "origin" : "Belgique",
-      "type" : "Quadrupel",
+      "type" : "Trappiste",
       "color" : "Brune",
       "ABV" : 11.3,
       "bottle" : true,
@@ -218,7 +218,7 @@
     {
       "name" : "Bush Ambrée",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Ambrée",
       "ABV" : 12,
       "bottle" : true,
@@ -227,14 +227,14 @@
       "checked" : false
     },
     {
-      "name" : "Brooklyn East IPA",
-      "origin" : "États-Unis d'Amérique",
+      "name" : "Brewdog Punk IPA",
+      "origin" : "Écosse",
       "type" : "Indian Pale Ale",
       "color" : "Blonde",
-      "ABV" : 6.9,
+      "ABV" : 5.6,
       "bottle" : true,
-      "path" : "assets/imgs/east_ipa.jpg",
-      "description" : "Brooklyn east IPA, une bière que les aficionados du bar connaissent déjà, puisqu’elle nous a tenu compagnie quelques mois récemment. Du haut de ses 6.9%, cette Indian Pale Ale américaine fait partie du désormais célèbre groupe Brooklyn, réputé pour ses bières extravagantes telles qui la Pumpkin, sortie en édition limitée spécialement pour Halloween. Comme pour toute bonne IPA, attendez vous à un goût sec et à de l'amertume. A tout nos hipsters : n'hésitez pas à venir la déguster le 30 mai. Bisous.",
+      "path" : "assets/imgs/punk_ipa.jpg",
+      "description" : "Fondée en 2007, la basserie écossaise Brewdog a su s'imposer parmi les plus dynamiques, avec des créations toutes plus originales et surprenantes les unes que les autres. La Punk IPA est sans doute leur plus grand succès, ayant conquis les hipsters du monde entier avec sa puissante amertume et son goût fruité inimitable. Forte en goût mais pas en alcool, elle est parfaite pour stimuler ses papilles sans trop perdre en lucidité. Les amateurs de houblon seront comblés par cette bière unique et rafraîchissante.", 
       "checked" : false
     },
     {
@@ -293,14 +293,14 @@
       "checked" : false
     },
     {
-      "name" : "Barbar",
+      "name" : "Rochefort 6",
       "origin" : "Belgique",
-      "type" : "Bière au Miel",
-      "color" : "Blonde",
-      "ABV" : 8,
+      "type" : "Trappiste",
+      "color" : "Brune",
+      "ABV" : 7.5,
       "bottle" : true,
-      "path" : "assets/imgs/barbar.jpg",
-      "description" : "La Barbãr est une belge dont le degré, 8 %, vous rappellera le nom. D’un blond profond, cette bière dégage au travers de sa mousse onctueuse un nez puissant marqué de miel sans être ostentatoire, accompagné d’un florilège de notes florales, d’épices et d’agrumes. A l'heure où tout va si vite, il est parfois bon de se pencher sur ses racines... sur ce breuvage que les anciens appelaient le Repos du Guerrier. Une bière blonde rare à goûter sans attendre !",
+      "path" : "assets/imgs/rochefort6.jpg",
+      "description" : "La Bière Rochefort 6 est une bière trappiste à fermentation haute, conçue par les brasseurs de l'Abbaye Notre Dame de St-Remy en Belgique. D'une couleur rouge-brunâtre typique des vieux vins de Bourgogne, la bière est limpide et repose sur un lit de levures. A la dégustation, l'attaque est franche et légèrement piquante, la saveur est à la fois douce, ronde et forte, et offre une bouche pleine à l'étalement assez long remontant en fin de bouche avec une légère âcreté et une amertume équilibrée, l'amertume étant la plus nette des 3 bières de l'Abbaye de Rochefort. Une bière belge de grande qualité idéale pour s'initier ou se faire plaisir.",
       "checked" : false
     },
     {
@@ -337,14 +337,14 @@
       "checked" : false
     },
     {
-      "name" : "Trois Pistoles",
+      "name" : "La Fin du Monde",
       "origin" : "Canada",
-      "type" : "Dark Ale",
-      "color" : "Brune",
+      "type" : "Tripel",
+      "color" : "Ambrée",
       "ABV" : 9,
       "bottle" : true,
-      "path" : "assets/imgs/trois_pistoles.jpg",
-      "description" : "Rendez-vous maintenant au pays de la poutine et des traductions douteuses, le Québec ! Nous vous proposons une quadrupel titrée à un petit 9° du doux nom de Trois-pistoles. Elle est brassée dans la célèbre brasserie Unibroue, l’une des plus réputées de la région. Malgré son origine lointaine, la Trois Pistoles est d’inspiration belge, essayant de reprendre le style des bières brunes fortes d’abbaye.  Sachez avant de choisir vos bières le 30 mai, qu’elle fait partie du cercle fermé des bières notées à 99/100 sur RateBeer.",
+      "path" : "assets/imgs/fin_du_monde.jpg",
+      "description" : "La Fin du Monde est une bière à triple fermentation, inspirée des abbayes belges. Cette bière du Canada à la robe orange surmontée d'une fine mousse blanche offre des arômes subtils et d'une grande finesse de fruits, de levure et d'épices. Sa vigoureuse présence en bouche souligne sa forte personnalité : moelleuse, légèrement piquante, avec des saveurs d'épices sauvages, de malt et de houblon. L'étiquette de la Fin du Monde rappelle la venue des premiers explorateurs en Amérique, croyant être arrivés au bout du monde. En 1995, elle a reçu une médaille de platine par le CBTI.",
       "checked" : false
     }
   ]
