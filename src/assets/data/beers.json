@@ -103,7 +103,7 @@
     {
       "name" : "Duvel",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Blonde",
       "ABV" : 8.5,
       "bottle" : true,
@@ -130,7 +130,7 @@
     {
       "name" : "Chouffe",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Blonde",
       "ABV" : 8,
       "bottle" : false,
@@ -163,7 +163,7 @@
     {
       "name" : "Rince Cochon",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Blonde",
       "ABV" : 8.5,
       "bottle" : true,
@@ -185,7 +185,7 @@
     {
       "name" : "Maredsous Blonde",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Blonde",
       "ABV" : 6,
       "bottle" : true,
@@ -218,7 +218,7 @@
     {
       "name" : "Bush Ambrée",
       "origin" : "Belgique",
-      "type" : "Golden Ale",
+      "type" : "Pale Ale",
       "color" : "Ambrée",
       "ABV" : 12,
       "bottle" : true,
@@ -337,14 +337,14 @@
       "checked" : false
     },
     {
-      "name" : "Trois Pistoles",
+      "name" : "La Fin du Monde",
       "origin" : "Canada",
-      "type" : "Dark Ale",
-      "color" : "Brune",
+      "type" : "Tripel",
+      "color" : "Ambrée",
       "ABV" : 9,
       "bottle" : true,
-      "path" : "assets/imgs/trois_pistoles.jpg",
-      "description" : "Rendez-vous maintenant au pays de la poutine et des traductions douteuses, le Québec ! Nous vous proposons une quadrupel titrée à un petit 9° du doux nom de Trois-pistoles. Elle est brassée dans la célèbre brasserie Unibroue, l’une des plus réputées de la région. Malgré son origine lointaine, la Trois Pistoles est d’inspiration belge, essayant de reprendre le style des bières brunes fortes d’abbaye.  Sachez avant de choisir vos bières le 30 mai, qu’elle fait partie du cercle fermé des bières notées à 99/100 sur RateBeer.",
+      "path" : "assets/imgs/fin_du_monde.jpg",
+      "description" : "La Fin du Monde est une bière à triple fermentation, inspirée des abbayes belges. Cette bière du Canada à la robe orange surmontée d'une fine mousse blanche offre des arômes subtils et d'une grande finesse de fruits, de levure et d'épices. Sa vigoureuse présence en bouche souligne sa forte personnalité : moelleuse, légèrement piquante, avec des saveurs d'épices sauvages, de malt et de houblon. L'étiquette de la Fin du Monde rappelle la venue des premiers explorateurs en Amérique, croyant être arrivés au bout du monde. En 1995, elle a reçu une médaille de platine par le CBTI.",
       "checked" : false
     }
   ]
