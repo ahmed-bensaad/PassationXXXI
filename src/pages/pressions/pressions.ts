@@ -30,6 +30,7 @@ export class PressionsPage {
     }else{
       console.log('val is not null');
       this.beerList=val;
+      storage.remove('json');
 
     }
   });
